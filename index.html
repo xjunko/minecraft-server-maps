@@ -2,22 +2,87 @@
 <html lang="en">
 
 <head>
+    <!-- Meta(s) -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub</title>
+
+    <title>The World of PAKB - Map Explorer</title>
 </head>
 
 <body>
-    <div style="text-align: center;">
-        <h2 class="glow">How the fuck did you get here</h2>
+    <!-- Main -->
+    <div>
+        </br></br>
+        <h1 class="centered glow"> The World of PAKB </h1>
+        <h3 class="centered"> Welcome, retards. Please select a dimension to view its map.</h3>
+        <h3 class="centered"> Last Updated: TODO</h3>
+
+        </br>
+        </br>
     </div>
 
-    <!-- Styles -->
+    <!-- List -->
+    <div>
+        <a href="https://maps.konno.tk/PAKB/Overworld/">
+            <div class="map">
+                <img class="map-thumb" src="img/spawn.png">
+                <div class="overlay">
+                    <div class="overlay-text">
+                        <h1>The Overworld</h1>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Inline Style (cuz im lazy) -->
     <style>
+        /* Fonts */
+        @font-face {
+            font-family: "Unifont";
+            src: url("https://junko.konno.tk/assets/fonts/unifont-13.0.04.ttf");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Styles */
+        :root {
+            --font: Unifont;
+
+            /* Color schemes (from junko.konno.tk) */
+            --darkest-color: #070707;
+            --not-so-dark-color: #202123;
+            --middle-color: #a0a8ae;
+            --not-so-bright-color: #63687b;
+            --brightest-color: #fafbf8;
+
+        }
+
         body {
-            background-color: black;
-            color: white;
+            font-family: var(--font);
+            background-color: var(--not-so-dark-color);
+        }
+
+        /* Texts */
+        a,
+        p,
+        h1,
+        h2,
+        h3 {
+            text-decoration: none;
+            color: var(--brightest-color);
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .centered {
+            text-align: center;
         }
 
         /* Glow shit */
@@ -34,6 +99,50 @@
             to {
                 text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
             }
+        }
+
+        /* Map Styles */
+        .map {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 75%;
+        }
+
+        .map-thumb {
+            object-fit: cover;
+            width: 75%;
+            height: calc(75% - 50%);
+        }
+
+        /* Overlay */
+        .overlay {
+            position: absolute;
+            width: 75%;
+            height: 100%;
+            opacity: 0.5;
+            transition: .1s ease;
+            scale: 1;
+            background-color: var(--darkest-color);
+        }
+
+        .overlay:hover {
+            opacity: 0.95;
+            scale: 1.01;
+        }
+
+        .overlay-text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
         }
     </style>
 </body>

@@ -1,0 +1,33 @@
+# Custom format written by me (redz)
+# It goes like this: 
+# X, Y, TEXT, TEXT_SIZE, TEXT_COLOR, IMAGE_PATH, IMAGE_SCALE
+#
+# Please read this.
+# Anything after the TEXT_COLOR is optional.
+# and you can use # for comments
+# NOTE: For places with , in the name use ;. => Example: dicks, cock -> dicks; cock
+
+# 1-off quirky places
+-138, -864, Mooth's Legendary Tank, 10, #ffffff
+
+# Minecraft-ish place
+21, -151, XP Farm, 12, #ffffff, markers/xp.png, 0.25
+262， -788，Creeper Farm , 12, #ffffff
+
+1472, -494, End Portal (1), 12, #ffffff, markers/eyeofender.png, 0.25
+4731, 981, End Portal (2), 12, #ffffff, markers/eyeofender.png, 0.25
+
+-1454, -1556, Trading Village (1), 12, #ffffff, markers/emerald.png, 0.5
+
+# Tunnels
+-81, -195, Neko's Tunnel [In], 10, #ffffff
+-57, -854, Neko's Tunnel [Out], 10, #ffffff
+
+# People's place
+-72, -214, Main Spawn, 12, #ffffff, markers/dark.png, 0.5
+
+-77, -884, Neko's, 12, #ffffff, markers/custom/neko.png, 0.5
+120, -856, Kagi's Base, 12, #ffffff, markers/custom/kagi.jpg, 0.5
+-354, -1100, Higashiyama-ku; Kyoto, 12, #ffffff, markers/custom/kyoto.png, 0.7
+
+-116, -169, Mystia's Cuck Shed, 9, #ffffff

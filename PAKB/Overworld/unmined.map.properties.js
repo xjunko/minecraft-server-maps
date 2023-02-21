@@ -6,8 +6,8 @@ var UnminedMapProperties = {
     imageFormat: "jpeg",
     minRegionX: -10,
     minRegionZ: -44,
-    maxRegionX: 5,
-    maxRegionZ: 2,
+    maxRegionX: 8,
+    maxRegionZ: 3,
     worldName: "PAKB: [world]",
     background: "",
     markers: new Array()
