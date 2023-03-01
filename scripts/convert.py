@@ -47,6 +47,7 @@ def main() -> int:
                 items[n] = item.strip()
 
         # Default
+        print(items)
         params: dict[str, str | int] = {
             "x": items[0],
             "z": items[1],
