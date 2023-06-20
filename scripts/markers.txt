@@ -14,6 +14,8 @@
 21, -151, XP Farm, 12, #ffffff, markers/xp.png, 0.25
 262, -788, Creeper Farm, 12, #ffffff
 
+-240, -200, Redz's Item Storage, 12, #ffffff
+
 1472, -494, End Portal (1), 12, #ffffff, markers/eyeofender.png, 0.25
 4731, 981, End Portal (2), 12, #ffffff, markers/eyeofender.png, 0.25
 

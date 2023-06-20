@@ -38,6 +38,15 @@ UnminedCustomMarkers = {
             "font": "bold 12px Verdana"
         },
         {
+            "x": -240,
+            "z": -200,
+            "text": "Redz's Item Storage",
+            "textColor": "#ffffff",
+            "offsetX": 0,
+            "offsetY": 8,
+            "font": "bold 12px Verdana"
+        },
+        {
             "x": 1472,
             "z": -494,
             "text": "End Portal (1)",
